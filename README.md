@@ -61,66 +61,19 @@ skill as a normal turn, it is read only and leaves the work as it found it.
 
 ## What the answers look like
 
-All three below are real, from this repo on the day it was written.
+All three are real, from this repo on the day it was written.
 
 ### /hawd
 
-```
-Goal (source: this conversation, no plan doc or PR body in the repo)
-A skills repo, pm slop, that answers PM questions with evidence.
-
-Doing now: main at 4a0c95a, working tree clean, everything pushed. No PRs.
-
-Done
-- [x] Repo skeleton, plugin manifests, MIT, README, three skills (669c127, 2026-09-05)
-- [x] Full question names as the skills, hawd/wawat/shipbf as aliases (cc17008, 2026-09-05)
-- [x] Prompts cut to a question, four items and one evidence rule (2e7144c, 2026-09-05)
-
-Next
-- [ ] Run /hawd on a branch with an open PR and judge the answer (from: conversation)
-- [ ] README line: private repos need gh auth login (from: install output)
-- [ ] Exercise /wawat and /shipbf once on real history (inferred)
-
-Could not verify: nothing outstanding in git.
-```
+![/hawd: goal with its source, doing now, done with commits, next with sources or the inferred label](./docs/hawd.png)
 
 ### /wawat make repo public
 
-```
-Looking at: "make repo public" for jonasporto/pm-slop. No branch, commit, PR
-or issue mentions it; the only source is your stated intent in this session.
-
-State: never started. The repo is still private on GitHub.
-
-Doing now: nothing. Last touch on the repo was a commit at 13:01 today,
-unrelated to visibility.
-
-Done
-- [x] Everything that gates going public except the human check: repo clean
-      and pushed, install verified across agents, README has install and
-      gh auth notes (669c127 through c997101, 2026-09-05)
-
-Next
-- [ ] Judge the first real /hawd answer on a branch with an open PR (from: conversation)
-- [ ] Decide the name stays pm-slop and the README reads right to a PM audience (inferred)
-- [ ] Flip it: gh repo edit --visibility public (inferred; one command, reversible)
-
-Could not verify: nothing else. This is read only; the flip was not run.
-```
+![/wawat: says which match it picked, state never started, done and next, flip listed as inferred and not run](./docs/wawat.png)
 
 ### /shipbf
 
-```
-Verdict: yes, if
-
-| remaining | done so far | sessions so far | velocity | sessions needed | budget |
-|-----------|-------------|-----------------|----------|-----------------|--------|
-| 3 items   | 6 items     | 1               | 6/session| 1               | 1      |
-
-Yes, if "ship" means public on GitHub today. Capped at yes-if because the
-branch has one session of history, so velocity is a single sample.
-Not counted (human time): your own read of the first real /hawd answer.
-```
+![/shipbf: verdict yes-if with a table of remaining, done, sessions, velocity and budget, capped because of one session of history](./docs/shipbf.png)
 
 ## Friday in agent time
 
