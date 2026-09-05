@@ -61,9 +61,11 @@ The fork inherits the conversation, so "this" means the work you are talking
 about, not merely the directory you are standing in. Other agents: run the
 skill as a normal turn, it is read only and leaves the work as it found it.
 
-## What an answer looks like
+## What the answers look like
 
-`/hawd`, on this repo, the day it was written:
+All three below are real, from this repo on the day it was written.
+
+### /hawd
 
 ```
 Goal (source: this conversation, no plan doc or PR body in the repo)
@@ -84,7 +86,31 @@ Next
 Could not verify: nothing outstanding in git.
 ```
 
-`/shipbf`, right after:
+### /wawat make repo public
+
+```
+Looking at: "make repo public" for jonasporto/pm-slop. No branch, commit, PR
+or issue mentions it; the only source is your stated intent in this session.
+
+State: never started. The repo is still private on GitHub.
+
+Doing now: nothing. Last touch on the repo was a commit at 13:01 today,
+unrelated to visibility.
+
+Done
+- [x] Everything that gates going public except the human check: repo clean
+      and pushed, install verified across agents, README has install and
+      gh auth notes (669c127 through c997101, 2026-09-05)
+
+Next
+- [ ] Judge the first real /hawd answer on a branch with an open PR (from: conversation)
+- [ ] Decide the name stays pm-slop and the README reads right to a PM audience (inferred)
+- [ ] Flip it: gh repo edit --visibility public (inferred; one command, reversible)
+
+Could not verify: nothing else. This is read only; the flip was not run.
+```
+
+### /shipbf
 
 ```
 Verdict: yes, if
