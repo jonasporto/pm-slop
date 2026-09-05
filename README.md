@@ -4,9 +4,12 @@ Answers to the questions PMs ask. The question is slop. The answer is not.
 
 | you ask | you type | you get |
 |---|---|---|
-| how are we doing on this? | `/hawd` | goal, doing now, done checklist, next checklist |
-| where are we at with X? | `/wawat X` | which X it found, its state, then the same checklist |
-| can we ship this by Friday? | `/shipbf [N]` | yes / no / yes-if, from measured pace, in agent sessions |
+| how are we doing on this? | `/how-are-we-doing-on-this` or `/hawd` | goal, doing now, done checklist, next checklist |
+| where are we at with X? | `/where-are-we-at-with-x X` or `/wawat X` | which X it found, its state, then the same checklist |
+| can we ship this by Friday? | `/can-we-ship-this-by-friday [N]` or `/shipbf [N]` | yes / no / yes-if, from measured pace, in agent sessions |
+
+The full name is the skill. The short one is an alias folder that points at
+it, so both install and both trigger.
 
 Every Done item carries a commit hash. Every Next item carries its source
 (plan doc, PR body, review comment, failing check, TODO) or the label
@@ -46,14 +49,14 @@ not guessed.
 Without it the answer says what it could not verify.
 
 Optional: if your repo keeps a plan doc, point your CLAUDE.md or AGENTS.md
-at it and `hawd` uses it as the goal source. Without one, the goal comes from
+at it and `how-are-we-doing-on-this` uses it as the goal source. Without one, the goal comes from
 the PR body, the issue, the branch description or the first commit, in that
 order, and the answer says which.
 
 ## Contributing
 
-One skill is one PM question. The folder name is the acronym people would
-actually type. The description in the frontmatter lists the ways the question
+One skill is one PM question. The folder name is the question itself in
+kebab-case, plus an alias folder with the acronym people would actually type. The description in the frontmatter lists the ways the question
 is asked in real life, because that is what triggers the skill when nobody
 types the slash.
 
