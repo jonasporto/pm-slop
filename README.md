@@ -21,8 +21,12 @@ Works with Claude Code, Codex, Cursor and every other agent that reads
 `SKILL.md` folders, in one command:
 
 ```bash
-npx skills add jonasporto/pm-slop
+npx skills add jonasporto/pm-slop -g --all
 ```
+
+`-g` installs for the user, so the skills work in every checkout. `--all`
+takes every skill and every agent it finds without asking. Drop either to
+pick.
 
 Claude Code only, as a plugin:
 
