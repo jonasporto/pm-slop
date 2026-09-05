@@ -50,6 +50,21 @@ The plugin route namespaces the commands: `/pm-slop:hawd`.
 Needs `git`. With `gh` installed you also get PRs, issues, reviews and CI
 checks; without it the answer says what it could not verify.
 
+## Ask mid-session
+
+The questions land best in the middle of a working session, when the agent
+already knows what "this" is. In Claude Code, `/btw` runs a skill in a fork
+without interrupting the work in flight:
+
+```
+/btw /hawd
+/btw /shipbf 2
+```
+
+The fork inherits the conversation, so "this" means the work you are talking
+about, not merely the directory you are standing in. Other agents: run the
+skill as a normal turn, it is read only and leaves the work as it found it.
+
 ## What an answer looks like
 
 `/hawd`, on this repo, the day it was written:
