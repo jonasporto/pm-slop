@@ -1,7 +1,5 @@
 # pm slop
 
-[![skills.sh](https://skills.sh/b/jonasporto/pm-slop)](https://skills.sh/jonasporto/pm-slop)
-
 Answers to the questions PMs ask. The question is slop. The answer is not.
 
 | you ask | you type | you get |
