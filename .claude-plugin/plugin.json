@@ -1,0 +1,9 @@
+{
+  "name": "pm-slop",
+  "version": "0.1.0",
+  "description": "Answers to the questions PMs ask: /hawd, /wawat, /shipbf. The question is slop; the answer is not.",
+  "author": { "name": "Jonas Porto" },
+  "repository": "https://github.com/jonasporto/pm-slop",
+  "license": "MIT",
+  "keywords": ["status", "progress", "pm", "git", "skills"]
+}

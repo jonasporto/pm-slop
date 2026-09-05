@@ -1,0 +1,12 @@
+{
+  "name": "pm-slop",
+  "owner": { "name": "Jonas Porto" },
+  "plugins": [
+    {
+      "name": "pm-slop",
+      "description": "Answers to the questions PMs ask: /hawd, /wawat, /shipbf.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
