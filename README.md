@@ -26,7 +26,8 @@ npx skills add jonasporto/pm-slop -g --all
 
 `-g` installs for the user, so the skills work in every checkout. `--all`
 takes every skill and every agent it finds without asking. Drop either to
-pick.
+pick. For a private repo, run `gh auth login` first: the installer falls back
+to `gh` when the GitHub API says no.
 
 Claude Code only, as a plugin:
 
