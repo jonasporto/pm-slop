@@ -18,6 +18,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: npm i -g npm@10.9.8
       - run: npm ci
       - run: npm run check-plugin-version
       - name: Create version PR or tag release
