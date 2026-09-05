@@ -1,0 +1,3 @@
+interface:
+  display_name: "How are we doing on this?"
+  short_description: "Goal, doing now, done and next for the current work"

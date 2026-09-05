@@ -1,9 +1,18 @@
 {
   "name": "pm-slop",
   "version": "0.1.0",
-  "description": "Answers to the questions PMs ask: /hawd, /wawat, /shipbf. The question is slop; the answer is not.",
-  "author": { "name": "Jonas Porto" },
+  "description": "Answers to the questions PMs ask, with evidence: how are we doing on this, where are we at with X, can we ship this by Friday. Every done item has a commit, every next step has a source, and Friday is measured in agent sessions.",
+  "author": { "name": "Jonas Porto", "url": "https://github.com/jonasporto" },
+  "homepage": "https://github.com/jonasporto/pm-slop",
   "repository": "https://github.com/jonasporto/pm-slop",
   "license": "MIT",
-  "keywords": ["status", "progress", "pm", "git", "skills"]
+  "keywords": ["status", "progress", "standup", "pm", "git", "skills", "claude-code", "codex"],
+  "skills": [
+    "./skills/how-are-we-doing-on-this",
+    "./skills/where-are-we-at-with-x",
+    "./skills/can-we-ship-this-by-friday",
+    "./skills/hawd",
+    "./skills/wawat",
+    "./skills/shipbf"
+  ]
 }

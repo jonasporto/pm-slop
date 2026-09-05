@@ -1,0 +1,3 @@
+interface:
+  display_name: "Can we ship this by Friday?"
+  short_description: "Yes, no or yes-if, measured in agent sessions"

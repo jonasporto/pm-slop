@@ -1,12 +1,14 @@
 {
   "name": "pm-slop",
-  "owner": { "name": "Jonas Porto" },
+  "owner": { "name": "Jonas Porto", "url": "https://github.com/jonasporto" },
+  "description": "pm slop as an installable Claude Code plugin: /hawd, /wawat, /shipbf.",
   "plugins": [
     {
       "name": "pm-slop",
-      "description": "Answers to the questions PMs ask: /hawd, /wawat, /shipbf.",
       "source": "./",
-      "category": "productivity"
+      "description": "Answers to the questions PMs ask, with evidence: how are we doing on this, where are we at with X, can we ship this by Friday.",
+      "category": "productivity",
+      "keywords": ["status", "progress", "standup", "pm", "git"]
     }
   ]
 }
