@@ -22,8 +22,7 @@ them at once, as files you own and can edit. **The Claude Code plugin** is a
 managed bundle that updates when this repo ships. Pick one; both at once gives
 you every skill twice.
 
-<details>
-<summary><strong>Codex, Claude Code, Cursor, and every other agent</strong></summary>
+### Codex, Claude Code, Cursor, and every other agent
 
 ```bash
 npx skills@latest add jonasporto/pm-slop -g --all
@@ -33,10 +32,8 @@ npx skills@latest add jonasporto/pm-slop -g --all
 takes every skill and every agent it finds without asking. Drop either to
 pick. Update later with `npx skills update -g`.
 
-</details>
 
-<details>
-<summary><strong>Claude Code plugin</strong></summary>
+### Claude Code plugin
 
 ```
 /plugin marketplace add jonasporto/pm-slop
@@ -45,7 +42,6 @@ pick. Update later with `npx skills update -g`.
 
 The plugin route namespaces the commands: `/pm-slop:hawd`.
 
-</details>
 
 Needs `git`. With `gh` installed you also get PRs, issues, reviews and CI
 checks; without it the answer says what it could not verify.
